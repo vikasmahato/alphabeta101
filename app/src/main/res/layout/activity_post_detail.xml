@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:id="@+id/activity_post_detail"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:context="mDiscussion.PostDetailActivity">
+
+        <TextView
+            android:id="@+id/post_title"
+            android:textColor="@color/colorPrimary"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+            tools:text="My First Post" />
+
+        <TextView
+            android:id="@+id/post_author"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:gravity="center_vertical"
+            android:textIsSelectable="true"
+            tools:text="someauthor@email.com" />
+        <TextView
+            android:id="@+id/post_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textIsSelectable="true"
+            tools:text="Body" />
+
+
+        <LinearLayout
+            android:id="@+id/comment_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1.0"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:id="@+id/field_comment_text"
+                android:layout_width="match_parent"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+
+                android:singleLine="false"
+                android:hint="Write an Answer..."/>
+
+            <Button
+                android:id="@+id/button_post_comment"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Post your Answer"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_comments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_comment"
+            android:layout_above="@+id/comment_form"
+            android:layout_below="@+id/post_text_layout" />
+
+    </LinearLayout>
+</ScrollView>

@@ -15,11 +15,71 @@
       },
       "oauth_client": [
         {
+          "client_id": "409800220535-pgd66qt57l81sug3c8m7290ptrvku3pg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vikas.alphabeta101",
+            "certificate_hash": "239BCBE62E06986D2333C3EAB5DAD4378E1073E5"
+          }
+        },
+        {
           "client_id": "409800220535-5es64bcv99gs2jhpvvi9ksm9nq6hpaoi.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.vikas.alphabeta101",
             "certificate_hash": "072E21BD0E64D091685372FF069EA8B4AB630553"
+          }
+        },
+        {
+          "client_id": "409800220535-c0b9jp1um8i27lsbnpum1e750j1osf5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeEl-KUDPtoZefisoPIRg4DXCutXGXLRQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409800220535-c0b9jp1um8i27lsbnpum1e750j1osf5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409800220535:android:40e91088547d3d47",
+        "android_client_info": {
+          "package_name": "com.example.naman.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409800220535-obvvq9t6vj4h1n0jk9o913n3pbludjvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naman.myapplication",
+            "certificate_hash": "072E21BD0E64D091685372FF069EA8B4AB630553"
+          }
+        },
+        {
+          "client_id": "409800220535-q3tme6alsahd8op7oo4d34f1s175gnvr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naman.myapplication",
+            "certificate_hash": "239BCBE62E06986D2333C3EAB5DAD4378E1073E5"
           }
         },
         {

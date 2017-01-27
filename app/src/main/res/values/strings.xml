@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">alphabeta101</string>
-    <string name="loading">Trying to Sign In</string>
+    <string name="app_name">My Application</string>
+    <string name="loading">Trying to sign in</string>
 </resources>

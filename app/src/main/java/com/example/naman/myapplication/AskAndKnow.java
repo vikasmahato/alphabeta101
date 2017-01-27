@@ -1,4 +1,4 @@
-package com.example.vikas.alphabeta101;
+package com.example.naman.myapplication;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -135,8 +135,8 @@ public class AskAndKnow extends AppCompatActivity implements
         startActivity(new Intent(AskAndKnow.this, Discussion.class));
         finish();
     }
-    private void writeNewUser(String userId, String name, String email) {
-        User user = new User(name, email);
+    private void writeNewUser(String userId, String name, String Email) {
+        User user = new User(name, Email);
         mDatabase.child("users").child(userId).setValue(user);
     }
     private void signIn() {
