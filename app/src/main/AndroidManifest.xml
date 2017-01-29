@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="ProFit"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SplashScreen">
@@ -23,6 +23,7 @@
         <activity android:name=".Discussion"></activity>
         <activity android:name=".NewQuestionActivity"></activity>
         <activity android:name=".PostDetailActivity"></activity>
+        <activity android:name=".Performance_tracker"></activity>
 
 
     </application>

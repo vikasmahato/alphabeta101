@@ -15,7 +15,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tracometer(View view){
-
+        Intent i = new Intent();
+        i.setClass(MainActivity.this,Performance_tracker.class);
+        startActivity(i);
 
     }
 

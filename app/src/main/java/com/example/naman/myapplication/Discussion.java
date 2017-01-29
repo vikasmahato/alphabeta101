@@ -32,7 +32,7 @@ public class Discussion extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Discussion.this, Discussion.class));
+                startActivity(new Intent(Discussion.this, NewQuestionActivity.class));
 
             }
         });
